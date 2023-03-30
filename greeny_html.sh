@@ -1,0 +1,58 @@
+#!/bin/bash
+touch greeny.html
+
+cat > greeny.html << EOF
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Graphical Greeny</title>
+	</head>
+	<body>
+		<header>
+			<img src="https://i.ibb.co/N3xB4YN/137009-546a77e6129e1babb67a874d28b00ff1-1-3-2023-3-04-16-PM.png" alt="137009-546a77e6129e1babb67a874d28b00ff1-1-3-2023-3-04-16-PM" border="0">
+		</header>
+		<h1><strong>THE GRAPHICAL GREENY</strong></h1>
+		<h4><em>Welcome to the official website of The Graphical Greeny.</em></h4>
+
+		<nav>
+			<ul>
+				<li><a href="About me">About me</a></li>
+				<li><a href="Experience">Experience</a></li>
+				<li><a href="Presently">Presently</a></li>
+				<li><a href="Contact me">Contact me</a></li>
+			</ul>
+		</nav>
+
+		<section>
+			<h3><a id="About me">About me<a></h3>
+			<img src="https://i.ibb.co/12bTB2H/9-3-2022-5-05-34-AM.jpg" alt="9-3-2022-5-05-34-AM" border="0">
+			<p>My name is Evergreen Odeh. A Graphic Designer and an aspiring product Designer currently studying at the university.</p>
+			<p>I am based in Lagos where I reside with my famiy at our little house on the outskirts of the city.</p>
+			<p>In my free time, I love to design, read, explore linux, dance, watch funny suspenseful movies, take pictures and think.</p>
+		</section>
+
+		<section>
+			<h3><a id="Experience">Experience</a></h3>
+			<p>I have been a graphic designer for more than three (3) years helping brands gain more visibility and I began my Product Design journey this year.</p>
+		</section>
+
+		<section>
+			<h3><a id="Presently">Presently</a></h3>
+			<p>I am presently enrolled in the Empower Her Community Bootcamp where I'm gaining knowledge on Front-end Web Development to add to my Product Dessign Skills.</p>
+		</section>
+
+		<section>
+			<h3><a id="Contact me">Contact me</a></h3>
+			<p><em>You can reach me via;</em></p><br>
+			<a href="https://wa.me/2349049797895"><button class="btn btn primary btn-lg">WhatsApp</button><br>
+				<a href="mailto: everodeh48@gmail.com.de"><button class="btn btn primary btn-lg">Email</button>
+		</section>
+
+		<footer>
+			<p>The Graphical Greeny</p>
+		</footer>
+	</body>
+</html>
+
+EOF
